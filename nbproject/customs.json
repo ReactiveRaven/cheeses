@@ -1,0 +1,13 @@
+{
+    "attributes": {
+        "timestamp": {}
+    },
+    "elements": {
+        "message": {
+            "attributes": {
+                "message": {}
+            }
+        },
+        "avatar": {}
+    }
+}

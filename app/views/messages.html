@@ -1,0 +1,9 @@
+<div class="messagePanel">
+    <attachment ng-repeat="attachment in attachments" attachment="attachment"></attachment>
+    <div class="messagePanel__title">{{ conversationTitle }}</div>
+    <ol>
+        <li ng-repeat="message in messages | orderBy:'timestamp':true" class="message">
+            <message message="message"></message>
+        </li>
+    </ol>
+</div>
